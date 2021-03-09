@@ -10,13 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-
-      <h1>Benvenuto {{ $nome }} {{ $cognome }}!</h1>
-      <ul>
-        @foreach($collegamenti as $link =>$collegamento )
-        <li><a href="{{ $link }}">{{ $collegamento }}</a></li>
-        @endforeach
-      </ul>
+ecco qui i nostri contatti
     </body>
 
 </html>

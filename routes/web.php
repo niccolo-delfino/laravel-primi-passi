@@ -18,10 +18,10 @@ Route::get('/', function () {
       'nome' => 'Niccolò',
       'cognome' => 'Delfino',
       'collegamenti' => [
-        'chi siamo',
-        'dove trovarci',
-        'contatti',
-        'la nostra mission'
+        'chisiamo' => 'chi siamo',
+        'dovetrovarci' => 'dove trovarci',
+        'contatti' => 'contatti',
+        'mission' => 'la nostra mission'
       ]
     ];
     return view('ciao', $data);
