@@ -26,3 +26,15 @@ Route::get('/', function () {
     ];
     return view('ciao', $data);
 });
+Route::get('/chisiamo', function () {
+    return view('chisiamo');
+});
+Route::get('/dovetrovarci', function () {
+    return view('dovetrovarci');
+});
+Route::get('/contatti', function () {
+    return view('contatti');
+});
+Route::get('/mission', function () {
+    return view('mission');
+});
